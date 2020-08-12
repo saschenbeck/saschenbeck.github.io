@@ -2,8 +2,8 @@
 
 console.log("This is a JS Test");
 
-var colorButton = document.getElementsByClassName('colorChange');
-var rainbow = ['red','orange','yellow','green','blue','indigo','violet'];
+var colorButton = document.getElementById('testButton');
+// var rainbow = ['red','orange','yellow','green','blue','indigo','violet'];
 
 
 colorButton.onclick = function () {
