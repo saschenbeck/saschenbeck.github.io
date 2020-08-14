@@ -1,18 +1,58 @@
+#mainPage{
+    background-color: #8b008b;
+    height: 100%;
+    width: 100%;
+}
 #mainBody{
     display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+.combo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+
+
+section:nth-child(1){
+    justify-content: flex-start;
+}
+
+section:nth-child(2){
+    justify-self: center;
+    align-self: center;
+}
+#aboutMe{
+
+}
+#aboutMe h4{
+    color: #F24333;
+    margin: .5em 3em;
+    font-family: 'Bangers';
+    font-size: 200%;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
 }
 #chibiContainer{
     display: flex;
+    min-width: 1%;
     max-height: 100%;
     max-width: 100%;
+    width: 100%;
     justify-content: space-evenly;
-    background-color: lightslategray;
+    background-color: #F24333;
     align-items: center;
+    align-content: center;
+    margin: 0em 0em 1em 0em;
+    border: 1px solid black;
+    border-radius: 3em;
+
 }
 #chibiImage{
     max-height: 6em;
     max-width: 6em;
-    background-color: lightslategray;
+    background-color: #F24333;
     margin: 0em 6em;
 }
 .socialMedia{
@@ -20,4 +60,6 @@
     margin: .5em 3em;
     font-family: 'Bangers';
     font-size: 200%;
+    text-shadow: 2px 2px white;
+    font-weight: bold;
 }

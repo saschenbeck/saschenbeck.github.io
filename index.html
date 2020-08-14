@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="UTF-8">
         <title>Welcome</title>
@@ -7,17 +7,34 @@
         <link rel="stylesheet" href="css/page-test.css">
         <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body id="mainPage">
         <div id="chibiContainer">
-            <a href="#" class="socialMedia">TWITCH</a>
-            <a href="#" class="socialMedia">DISCORD</a>
-            <img id="chibiImage" src="images/chibiMe.png">
-            <a href="#" class="socialMedia">INSTAGRAM</a>
-            <a href="#" class="socialMedia">TWITTER</a>
+            <div id="twitchCombo" class="combo">
+                <section id="twitchLink"><a href="#" class="socialMedia">TWITCH</a></section>
+                <section id="twitchLogo"><a href="#"><img src="images/twitchLogo.png" height="40px" width="50px"></a></section>
+            </div>
+            <div id="discordCombo" class="combo">
+                <section id="discordLink"><a href="#" class="socialMedia">DISCORD</a></section>
+                <section id="discordlogo"><a href="#"><img src="images/discordLogo.png" height="40px" width="50px"></a></section>
+            </div>
+            <div>
+                <img id="chibiImage" src="images/chibiMe.png">
+            </div>
+            <div id="instagramCombo" class="combo">
+                <section id="instagramLink"><a href="#" class="socialMedia">gitHub</a></section>
+                <section id="instagramLogo"><a href="#"><img src="images/githubLogo.png" height="40px" width="50px"></a></section>
+            </div>
+            <div id="twitterCombo" class="combo">
+                <section id="twitterLink"><a href="#" class="socialMedia">TWITTER</a></section>
+                <section id="twitterLogo"><a href="#"><img src="images/twitterLogo.png" height="40px" width="50px"></a></section>
+            </div>
         </div>
         <div id="mainBody">
+            <section id="aboutMe">
+                <h4>About Me</h4>
+            </section>
             <section>
-            <button id="testButton" class="colorChange" onclick="change()">Color Change</button>
+            <button id="testButton"  class="colorChange" onclick="change()">ClickMe</button>
             </section>
         </div>
 

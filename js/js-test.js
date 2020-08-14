@@ -13,6 +13,7 @@ var randomColor = rainbow[Math.floor(Math.random()*rainbow.length)];
 
 function change (){
     colorButton.style.backgroundColor = randomColor;
-    console.log(randomColor)
+    var newColor = randomColor
+    console.log(newColor);
 }
 
