@@ -6,7 +6,7 @@
 #mainBody{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .combo{
     display: flex;
@@ -28,15 +28,24 @@ section:nth-child(3){
     align-self: flex-end;
 }
 #aboutMe{
-
+    flex-direction: column;
+    font-family: "Bangers";
 }
 #aboutMe h4{
     color: #F24333;
     margin: .5em 3em;
-    font-family: 'Bangers';
     font-size: 200%;
     text-shadow: 2px 2px white;
     font-weight: bold;
+}
+#colorSection{
+    display: flex;
+    flex-direction: column;
+}
+#colorTitle{
+    font-size: 150%;
+    font-family: Bangers;
+    text-shadow: 1px 1px white;
 }
 #chibiContainer{
     display: flex;
