@@ -41,11 +41,16 @@ section:nth-child(3){
 #colorSection{
     display: flex;
     flex-direction: column;
+    color: #F24333;
 }
 #colorTitle{
     font-size: 150%;
     font-family: Bangers;
-    text-shadow: 1px 1px white;
+    text-shadow: 2px 2px white;
+}
+#testButton{
+    font-family: Bangers;
+    align-self: center;
 }
 #chibiContainer{
     display: flex;
@@ -69,10 +74,16 @@ section:nth-child(3){
     margin: 0em 6em;
 }
 .socialMedia{
-    color: darkmagenta;
+    color: #8b008b;
     margin: .5em 3em;
     font-family: 'Bangers';
     font-size: 200%;
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px white;
     font-weight: bold;
+}
+a:hover{
+    color: turquoise;
+}
+a:active{
+    color: limegreen;
 }
