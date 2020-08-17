@@ -58,9 +58,19 @@ body {
     border-radius: 30px;
     text-shadow:2px 2px black;
 }
+#mainBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0em 2%;
+}
 h2 {
     font-family: Bangers;
     text-shadow: 1px 1px white;
+}
+#aboutMe{
+    font-family: Bangers;
+    width: 40%;
 }
 #colorTitle{
     font-size: 150%;
