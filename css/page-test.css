@@ -1,89 +1,102 @@
-#mainPage{
-    background-color: #8b008b;
-    height: 100%;
-    width: 100%;
+* {
+    box-sizing: border-box;
 }
-#mainBody{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+body {
+    margin: 0;
+    background-color: darkmagenta;
+    min-height: 100vh;
 }
-.combo{
+#topNav {
     display: flex;
+    background-color: black;
+    align-items: center;
+    font-family: "Bangers", cursive;
     justify-content: space-between;
-    flex-direction: column-reverse;
+    max-height: 12em;
 }
-
-
-section:nth-child(1){
-    justify-content: flex-start;
+#chibiMe{
+    height: 10%;
+    width: 10%;
+    max-width: 10%;
+    max-height: 10%;
 }
-
-section:nth-child(2){
-    justify-self: center;
-    align-self: center;
-}
-section:nth-child(3){
-    justify-self: flex-end;
-    align-self: flex-end;
-}
-#aboutMe{
-    flex-direction: column;
-    font-family: "Bangers";
-}
-#aboutMe h4{
-    color: #F24333;
-    margin: .5em 3em;
-    font-size: 200%;
-    text-shadow: 2px 2px white;
-    font-weight: bold;
-}
-#colorSection{
+#topNav ul {
     display: flex;
-    flex-direction: column;
-    color: #F24333;
+    list-style: none;
+    padding: 0em;
+    margin: 0em;
+    font-size: 1.5em;
+    align-items: center;
+}
+#topNav li {
+    flex-flow: column wrap;
+    align-items: center;
+    display: flex;
+    padding: 0em;
+}
+#topNav i {
+    color: white;
+    padding: .25em;
+    text-shadow: 2px 2px black;
+}
+#topNav ul>li>a {
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    padding: 0em 1em;
+}
+
+#topNav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    text-shadow: 2px 2px orange;
+}
+#topNav a:active{
+    background-color: limegreen;
+    color: white;
+    border-radius: 30px;
+    text-shadow:2px 2px black;
+}
+h2 {
+    font-family: Bangers;
+    text-shadow: 1px 1px white;
 }
 #colorTitle{
     font-size: 150%;
     font-family: Bangers;
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px white;
 }
 #testButton{
     font-family: Bangers;
     align-self: center;
 }
-#chibiContainer{
-    display: flex;
-    min-width: 1%;
-    max-height: 100%;
-    max-width: 100%;
+footer{
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    justify-content: space-evenly;
-    background-color: #F24333;
+    font-family: "Bangers", cursive;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul {
+    display: flex;
     align-items: center;
-    align-content: center;
-    margin: 0em 0em 1em 0em;
-    border: 1px solid black;
-    border-radius: 3em;
-
 }
-#chibiImage{
-    max-height: 6em;
-    max-width: 6em;
-    background-color: #F24333;
-    margin: 0em 6em;
+footer li {
+    display: inline-block;
+    padding: 0em 1em;
 }
-.socialMedia{
-    color: #8b008b;
-    margin: .5em 3em;
-    font-family: 'Bangers';
-    font-size: 200%;
+footer a {
+    color: black;
     text-shadow: 1px 1px white;
-    font-weight: bold;
 }
-a:hover{
-    color: turquoise;
+footer a:hover {
+    color: white;
+    text-shadow: 1px 1px black;
 }
-a:active{
-    color: limegreen;
+footer a:active{
+    color: lime;
+    text-shadow: black;
 }
