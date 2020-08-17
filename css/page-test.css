@@ -72,14 +72,24 @@ h2 {
     font-family: Bangers;
     width: 40%;
 }
+#colorSection {
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    border-radius: 120px;
+    background-color: orange;
+}
 #colorTitle{
     font-size: 150%;
     font-family: Bangers;
     text-shadow: 1px 1px white;
+    align-items: center;
+    padding: 1em;
 }
 #testButton{
     font-family: Bangers;
     align-self: center;
+    margin: .5em;
 }
 footer{
     background-color: orange;
