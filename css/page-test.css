@@ -90,6 +90,7 @@ h2 {
     font-family: Bangers;
     align-self: center;
     margin: .5em;
+    border: 3px black solid;
     border-radius: 10px;
 }
 footer{
