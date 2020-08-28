@@ -16,7 +16,8 @@ console.log("This is a JS Test");
 //     colorSection.style.backgroundColor = randomSectionColor;
 // }
 
-testButton.onclick = function () {var colorButton = document.getElementById('testButton');
+testButton.onclick = function () {
+    var colorButton = document.getElementById('testButton');
     var colorSection = document.getElementById('colorSection');
     var rainbow = ['red','orange','yellow','green','blue','indigo','violet'];
     var randomButtonColor = rainbow[Math.floor(Math.random()*rainbow.length)];
