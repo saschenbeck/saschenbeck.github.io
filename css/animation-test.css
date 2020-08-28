@@ -1,4 +1,4 @@
-.colorChange{
+#testButton, #colorSection {
     transition-property: background-color;
     transition-duration: 3s;
 }
